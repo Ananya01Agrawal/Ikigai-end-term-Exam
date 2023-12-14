@@ -1,7 +1,8 @@
 # Ikigai end term Exam
  Here, I will be creating the Weather app
-![image](https://github.com/Ananya01Agrawal/Ikigai-end-term-Exam/assets/99130567/fb74452d-7c39-434a-b33e-bb09df98a394)
+![image](https://github.com/Ananya01Agrawal/Ikigai-end-term-Exam/assets/99130567/7df66a5d-3396-438a-b7eb-de938410d057)
+![image](https://github.com/Ananya01Agrawal/Ikigai-end-term-Exam/assets/99130567/b3b4c52d-738c-4db8-b856-85a0cfa855a7)
 
-![image](https://github.com/Ananya01Agrawal/Ikigai-end-term-Exam/assets/99130567/46694c06-7b8b-4d14-945c-9333ca102d10)
+
 
 
