@@ -1,41 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- This is Ananya Agrawal's Weather App -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Predictor</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
 
-        <meta charset="UTF-8" />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- This is Ananya Agrawal's Weather App -->
-
-        <title>Weather Predictor </title>
-        <!-- This is Ananya Agrawal's Weather App -->
-
-        <link rel="stylesheet"  type="text/css" href="extend.css"/>
-        
-        <!-- This is Ananya Agrawal's Weather App -->
-
-        <script src="extend.js" defer></script>
-
-    </head>
-
-    <body>
-        <!-- This is Ananya Agrawal's Weather App -->
-      <div class="card">
-
-        <form id="form">
-            <!-- This is Ananya Agrawal's Weather App -->
-
-            <input
-                type="text"
-                id="search"
-                placeholder="Search by location"
-                autocomplete="off"
-            />
-        </form>
-        <!-- This is Ananya Agrawal's Weather App -->
-        <main id="main"></main>
-        <!-- This is Ananya Agrawal's Weather App -->
+        <div class="grid-container">
+            <header class="header">
+                <div class="header-container">
+                    <div class="brand">
+                        <a href="./index.html">
+                            <span class="icon"></span>
+                            <span class="title">Weather PREDICTOR</span>
+                        </a>
+                    </div>
+                    <nav class="nav">
+                        <ul class="list">
+                           
+                            </li>
+                            <li class="list-item">
+                                <a href="./index.html">
+                                    <span class="icon"></span>
+                                    <span class="title">Ananya</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./index.html">
+                                    <span class="icon"></span>
+                                    <span class="title">Contact</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./index.html">
+                                    <span class="icon"></span>
+                                    <span class="title">Help</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <div id="burger">
+                        <div class="burger-container">
+                            <div class="line" id="line1"></div>
+                            <div class="line" id="line2"></div>
+                            <div class="line" id="line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </div>
-    </body>
+<!-- draw footer here -->   
+        
+
+
+
+    </div>
+    <div class="wrapper">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Enter a city name"
+            id="city"
+            value="Mumbai"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <div id="result"></div>
+      </div>
+    </div>
+    
+    <!-- Script -->
+    <script src="key.js"></script>
+    <script src="script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+    
+
+
+  </body>
 </html>
